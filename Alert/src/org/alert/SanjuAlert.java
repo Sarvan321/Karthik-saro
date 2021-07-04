@@ -25,5 +25,6 @@ public class SanjuAlert {
 		WebElement allCourse = mouseaction.findElement(By.xpath("//*[@id=\"menu-course-new-top-menu\"]/li[2]/a"));
 		jk.executeScript("arguments[0].scrollIntoView(false)", allCourse, course);
 		allCourse.click();
+		click();
 	}
 }
